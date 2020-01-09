@@ -1,10 +1,10 @@
 ## Coal-to-Natural Gas Transition Impacts Analysis
 
-This repository contains code to replicate analysis in the paper: "The downstream air pollution impacts of the transition from coal to natural gas in the United States" Nature Sustainability, January 2020 (https://doi.org/10.1038/s41893-019-0453-5). Because the underlying data are large and assembly of final data sets is slow, this replication starts from the compiled final data sets and reproduces analysis, tables, figures, and other summary output files.
+This repository contains code to replicate analysis in the paper: "The downstream air pollution impacts of the transition from coal to natural gas in the United States" Nature Sustainability, January 2020 (https://doi.org/10.1038/s41893-019-0453-5). Because the underlying data are large and assembly of final data sets is slow, this replication starts from the compiled final data sets and reproduces analysis, tables, figures, and other summary output files from the main manuscript, Extended Data, and Supplementary Information.
 
 ### Setup & Organization
 
-Due to size considerations :thinking: data for replication are hosted elsewhere. Please see the accompanying website for the paper (www.jaburney.net/coal-to-natural-gas-transition) to download a zipped file of these final data sets. (This file is almost identical to data published along with the paper ([https://doi.org/10.7910/DVN/RIZQUN](here)), but has a few additional intermediate data products included for plots included in the paper and Supplementary Information.) Unzip the data file within the main repository directory.
+Due to size considerations :thinking: data for replication are hosted elsewhere. Please see the accompanying website for the paper (www.jaburney.net/coal-to-natural-gas-transition) to download a zipped file of these final data sets. (This file is almost identical to data published along with the paper ([https://doi.org/10.7910/DVN/RIZQUN](here)), but has a few additional intermediate data products included for some descriptive figures.) Unzip the data file within the main repository directory.
 
 This repository should then have the following structure:
 * **Scripts/** contains the individual scripts to load data, conduct analysis, and output the figures and tables in the main manuscript, extended data, and supplementary information
@@ -18,3 +18,6 @@ Code was written in R version 3.6.1, and requires a number of additional package
 ```R
 install.packages(c('tidyverse','sp','rgdal','raster','spdep','rgeos','GISTools','rworldmap','lfe','stargazer','RColorBrewer','ggpubr'), dependencies = T)
 ``` 
+
+### Contact
+jburney@ucsd.edu 
