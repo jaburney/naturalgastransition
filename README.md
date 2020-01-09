@@ -11,7 +11,7 @@ This repository should then have the following structure:
 * **Data/** contains 8 .Rdata files
 * **Basic Replication.R** calls all of the relevant scripts to load data, conduct analysis, and produce figures & tables. I strongly suggest reading through it first and running piecemeal, as opposed to in one go: a couple of the analyis files take a long time to run and may not be necessary, depending on your objectives. The script begins by creating **Analysis/** **Plots/** and **Tables/** to hold output.
 
-### Required Packages
+### Requirements
 
 Code was written in R version 3.6.1, and requires a number of additional packages (latest versions can be installed with the following):
 
