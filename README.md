@@ -21,4 +21,5 @@ install.packages(c('tidyverse','sp','rgdal','raster','spdep','rgeos','GISTools',
 
 ### Contact
 Jen Burney, jburney@ucsd.edu
+
 More information about this project can be found at (www.jaburney.net/coal-to-natural-gas-transition)
