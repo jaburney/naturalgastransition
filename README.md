@@ -1,6 +1,6 @@
 ## Coal-to-Natural Gas Transition Impacts Analysis
 
-This repository contains code to replicate analysis in the paper: "The downstream air pollution impacts of the transition from coal to natural gas in the United States" Nature Sustainability, January 2020 (https://doi.org/10.1038/s41893-019-0453-5). Because the underlying data are large and assembly of final data sets is slow, this replication starts from the compiled final data sets and reproduces analysis, tables, figures, and other summary output files from the main manuscript, Extended Data, and Supplementary Information.
+This repository contains code to replicate analysis in the paper: "The downstream air pollution impacts of the transition from coal to natural gas in the United States," J. Burney, *Nature Sustainability*, January 2020 (https://doi.org/10.1038/s41893-019-0453-5). Because the underlying data are large and assembly of final data sets is slow, this replication starts from the compiled final data sets and reproduces analysis, tables, figures, and other summary output files from the main manuscript, Extended Data, and Supplementary Information.
 
 ### Setup & Organization
 
