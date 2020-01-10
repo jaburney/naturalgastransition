@@ -22,7 +22,18 @@ This repository should then have the following structure:
    Radiative Forcing.R  
    Tables - County.R  
    Tables - Plant Location.R  
+   
 * **Data/** contains 8 .Rdata files
+
+   Cleaned Power Plant and Spatial Data 2005-2016.RData
+   CropAreas.Rdata
+   FullPanel_AllPoints_Annual.Rdata
+   FullPanel_Counties_Annual.Rdata
+   FullPanel_CountiesWithPlantNeighbors_Annual.Rdata
+   FullPanel_PlantLocations_Annual.Rdata
+   RF Calculations Data.Rdata
+   Satellite and Surface Rasters.Rdata
+
 * **Basic Replication.R** calls all of the relevant scripts to load data, conduct analysis, and produce figures & tables. I strongly suggest reading through it first and running piecemeal, as opposed to in one go: a couple of the analyis files take a long time to run and may not be necessary, depending on your objectives. The script begins by creating **Analysis/** **Plots/** and **Tables/** to hold output.
 
 ### Requirements
