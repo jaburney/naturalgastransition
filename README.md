@@ -7,7 +7,21 @@ This repository contains code to replicate analysis in the paper: "The downstrea
 Due to size considerations :thinking: data for replication are hosted elsewhere. Please see the accompanying website for the paper (www.jaburney.net/coal-to-natural-gas-transition) to download a zipped file of these final data sets. (This file is almost identical to data published along with the paper ([https://doi.org/10.7910/DVN/RIZQUN](here)), but has a few additional intermediate data products included for some descriptive figures, and is organized for replication.) Unzip the data file within the main repository directory.
 
 This repository should then have the following structure:
-* **Scripts/** contains 13 individual scripts to load data, conduct analysis, and output the figures and tables in the main manuscript, extended data, and supplementary information
+* **Scripts/** contains 13 individual scripts to load data, conduct analysis, and output the figures and tables in the main manuscript, extended data, and supplementary information:
+
+...Analysis Functions.R  
+...Environmental Rasters.R  
+...Fleet Summary.R  
+...Main Analysis - County.R  
+...Main Analysis - Plant Location.R  
+...Model Comparison Plot.R  
+...Mortality and Crop Impacts.R  
+...Mortality Comparison to Other Studies.R  
+...Neighbors and Examples.R  
+...Plot Pollution Impacts.R  
+...Radiative Forcing.R  
+...Tables - County.R  
+...Tables - Plant Location.R  
 * **Data/** contains 8 .Rdata files
 * **Basic Replication.R** calls all of the relevant scripts to load data, conduct analysis, and produce figures & tables. I strongly suggest reading through it first and running piecemeal, as opposed to in one go: a couple of the analyis files take a long time to run and may not be necessary, depending on your objectives. The script begins by creating **Analysis/** **Plots/** and **Tables/** to hold output.
 
