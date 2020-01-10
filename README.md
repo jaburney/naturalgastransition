@@ -9,19 +9,19 @@ Due to size considerations :thinking: data for replication are hosted elsewhere.
 This repository should then have the following structure:
 * **Scripts/** contains 13 individual scripts to load data, conduct analysis, and output the figures and tables in the main manuscript, extended data, and supplementary information:
 
-...Analysis Functions.R  
-...Environmental Rasters.R  
-...Fleet Summary.R  
-...Main Analysis - County.R  
-...Main Analysis - Plant Location.R  
-...Model Comparison Plot.R  
-...Mortality and Crop Impacts.R  
-...Mortality Comparison to Other Studies.R  
-...Neighbors and Examples.R  
-...Plot Pollution Impacts.R  
-...Radiative Forcing.R  
-...Tables - County.R  
-...Tables - Plant Location.R  
+   Analysis Functions.R  
+   Environmental Rasters.R  
+   Fleet Summary.R  
+   Main Analysis - County.R  
+   Main Analysis - Plant Location.R  
+   Model Comparison Plot.R  
+   Mortality and Crop Impacts.R  
+   Mortality Comparison to Other Studies.R  
+   Neighbors and Examples.R  
+   Plot Pollution Impacts.R  
+   Radiative Forcing.R  
+   Tables - County.R  
+   Tables - Plant Location.R  
 * **Data/** contains 8 .Rdata files
 * **Basic Replication.R** calls all of the relevant scripts to load data, conduct analysis, and produce figures & tables. I strongly suggest reading through it first and running piecemeal, as opposed to in one go: a couple of the analyis files take a long time to run and may not be necessary, depending on your objectives. The script begins by creating **Analysis/** **Plots/** and **Tables/** to hold output.
 
