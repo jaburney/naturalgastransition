@@ -51,6 +51,7 @@ library(stargazer)
 
 # Plotting
 library(RColorBrewer)
+library(Cairo)
 library(ggpubr)
 
 # --------------------------------------------------------------------------------------------
