@@ -48,3 +48,4 @@ install.packages(c('tidyverse','sp','rgdal','raster','spdep','rgeos','GISTools',
 Jen Burney, jburney@ucsd.edu
 
 More information about this project can be found at www.jaburney.net/coal-to-natural-gas-transition
+If you would like to compile the underlying data, see www.github.com/jaburney/naturalgastransition-builddata
