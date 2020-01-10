@@ -41,7 +41,7 @@ This repository should then have the following structure:
 Code was written in R version 3.6.1, and requires a number of additional packages (latest versions can be installed with the following):
 
 ```R
-install.packages(c('tidyverse','sp','rgdal','raster','spdep','rgeos','GISTools','rworldmap','lfe','stargazer','RColorBrewer','ggpubr'), dependencies = T)
+install.packages(c('tidyverse','sp','rgdal','raster','spdep','rgeos','GISTools','rworldmap','lfe','stargazer','RColorBrewer','Cairo','ggpubr'), dependencies = T)
 ``` 
 
 ### Contact
