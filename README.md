@@ -4,7 +4,7 @@ This repository contains code to replicate analysis in the paper: "The downstrea
 
 ### Setup & Organization
 
-Due to size considerations :thinking: data for replication are hosted in an accompanying dataverse ([https://doi.org/10.7910/DVN/RIZQUN](here)), but has a few additional intermediate data products included for some descriptive figures, and is organized for replication.) Unzip the data file within the main repository directory.
+Due to size considerations :thinking: data must be downloaded from the accompanying dataverse ([https://doi.org/10.7910/DVN/RIZQUN](here)). Unzip the data file within the main repository directory.
 
 This repository should then have the following structure:
 * **Scripts/** contains 13 individual scripts to load data, conduct analysis, and output the figures and tables in the main manuscript, extended data, and supplementary information:
